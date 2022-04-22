@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void main(void)
+int main(void)
 {
 
     int x;
@@ -10,4 +10,6 @@ void main(void)
     p2 = p1;
 
     printf("%p", p2);
+
+    return 0;
 }
